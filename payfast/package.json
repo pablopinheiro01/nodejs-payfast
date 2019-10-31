@@ -1,0 +1,26 @@
+{
+  "name": "payfast",
+  "version": "1.0.0",
+  "description": "um gateway para pagamento atraves do recurso http.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "keywords": [
+    "api",
+    "gateway",
+    "javascript"
+  ],
+  "author": "pablopinheiro",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "consign": "^0.1.6",
+    "express": "4.16.3",
+    "mysql2": "1.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.3"
+  }
+}
